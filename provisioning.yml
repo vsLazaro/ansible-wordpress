@@ -1,0 +1,8 @@
+---
+- hosts: "{{ vps }}"
+  roles:
+    - mysql
+
+- hosts: wordpress
+  roles:
+    - wordpress
